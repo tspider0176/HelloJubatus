@@ -1,0 +1,1258 @@
+New log file opened at Sun Oct 04 11:06:51 JST 2015 by 84722@Stringa.local
+jvm 84722@Stringa.local
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.45-b02
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/Users/String/AI/HelloJubatus
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /Users/String/AI/HelloJubatus/project
+[Loading] Found non-root projects 
+[Loading] Done in /Users/String/AI/HelloJubatus/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/String/AI/HelloJubatus/project, returning: (hellojubatus-build)
+Loading project definition from /Users/String/AI/HelloJubatus/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@11bbc47e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /Users/String/AI/HelloJubatus
+[Loading] Found non-root projects 
+[Loading] Done in /Users/String/AI/HelloJubatus, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/String/AI/HelloJubatus, returning: (hellojubatus)
+Set current project to HelloJubatus (in build file:/Users/String/AI/HelloJubatus/)
+Reapplying settings...
+Set current project to HelloJubatus (in build file:/Users/String/AI/HelloJubatus/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/Users/String/AI/HelloJubatus/}hellojubatus/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@4ef37268, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2015/10/04 11:06:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/String/AI/HelloJubatus/}hellojubatus/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@29f8784, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2015/10/04 11:06:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/String/AI/HelloJubatus/}hellojubatus/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@47e36dd6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2015/10/04 11:06:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/String/AI/HelloJubatus/}hellojubatus/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@383650f9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2015/10/04 11:06:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7b51cd88, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@f65a5a3 directly...
+Java compilation took 0.387916944 s
+Java analysis took 0.057214979 s
+Java compile + analysis took 0.448688632 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2015/10/04 11:09:08
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@12c05f20, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:09:08
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@36e4cfd6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@1d56eda5 directly...
+Java compilation took 0.065820183 s
+Java analysis took 0.015399909 s
+Java compile + analysis took 0.083105734 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:13:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@7593e5d1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:13:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@33975379, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@6fc0c7e1 directly...
+Java compilation took 0.05297298 s
+Java analysis took 0.008072564 s
+Java compile + analysis took 0.062357424 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:15:41
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@1021a4c1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:15:41
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@8dc3788, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@71058624 directly...
+Java compilation took 0.056789673 s
+Java analysis took 0.0086074 s
+Java compile + analysis took 0.066528167 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:19:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@457970c8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:19:07
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4dd5f83f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@2efc5aec directly...
+Java compilation took 0.043171503 s
+Java analysis took 0.010063565 s
+Java compile + analysis took 0.05419018 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:19:32
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@52b66f86, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:19:32
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5874d4d5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@8eceddf directly...
+Java compilation took 0.035011096 s
+Java analysis took 0.009321619 s
+Java compile + analysis took 0.045261526 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:19:35
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ca3f267, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:19:35
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@ac220e6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@315b956c directly...
+Java compilation took 0.030594038 s
+Java analysis took 0.007457014 s
+Java compile + analysis took 0.038895979 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:19:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@37d0a5fd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:19:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4bf1dc80, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@3b2f8348 directly...
+Java compilation took 0.044604271 s
+Java analysis took 0.011062146 s
+Java compile + analysis took 0.056729637 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:19:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@353f22a5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:19:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@344a9a3c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@4ebd9bcc directly...
+Java compilation took 0.026094231 s
+Java analysis took 0.007656758 s
+Java compile + analysis took 0.034570561 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:20:05
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@58092a1f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:20:05
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5b7febc9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@74217fdb directly...
+Java compilation took 0.025260655 s
+Java analysis took 0.006229893 s
+Java compile + analysis took 0.032437148 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:20:20
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@11ede75a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:20:20
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4018d457, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@360e8999 directly...
+Java compilation took 0.024263304 s
+Java analysis took 0.006710752 s
+Java compile + analysis took 0.03174072 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:20:25
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@403ab337, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:20:25
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@49fbbafa, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@505cd736 directly...
+Java compilation took 0.027642563 s
+Java analysis took 0.009924397 s
+Java compile + analysis took 0.038723131 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:20:34
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@4d7e9e2a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:20:34
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4bc60329, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@520b8235 directly...
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:39: '}'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:39: '}'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: ')'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: ')'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: 文ではありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: 文ではありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: 文ではありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: 文ではありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:42: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:44: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:44: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:45: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:45: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:46: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:46: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:47: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:47: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:48: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:48: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:49: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:49: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:50: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:50: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:51: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:51: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:52: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:52: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:53: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:53: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:54: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:54: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:55: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:55: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:58: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:58: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:58: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:58: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:65: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:65: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:72: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:72: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:72: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:72: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:72: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:72: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:75: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:75: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:75: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:75: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:78: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:78: class、interfaceまたはenumがありません
+Read from stdout: private static 
+private static 
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:80: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:80: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:83: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:83: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:86: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:86: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:91: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:91: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:95: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:95: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:97: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:97: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:100: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:100: class、interfaceまたはenumがありません
+Read from stdout: public static 
+public static 
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:103: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:103: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:104: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:104: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:105: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:105: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:106: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:106: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:108: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:108: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:110: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:110: class、interfaceまたはenumがありません
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 0 s, completed 2015/10/04 11:20:50
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d71a4de, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@8b3d912 directly...
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:40: '}'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:40: '}'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ')'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ')'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: 文ではありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: 文ではありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: 文ではありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: 文ではありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:43: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:44: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:44: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:45: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:45: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:46: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:46: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:47: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:47: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:48: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:48: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:49: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:49: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:50: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:50: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:51: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:51: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:52: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:52: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:53: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:53: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:54: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:54: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:55: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:55: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:56: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:56: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:59: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:60: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:61: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:62: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:63: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:64: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:65: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:65: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:65: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:65: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:66: ';'がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:66: ';'がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:73: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:73: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:73: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:73: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:73: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:73: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:76: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:76: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:76: <identifier>がありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:76: <identifier>がありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:79: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:79: class、interfaceまたはenumがありません
+Read from stdout: private static 
+private static 
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:81: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:81: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:84: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:84: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:87: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:87: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:92: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:92: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:96: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:96: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:98: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:98: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:101: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:101: class、interfaceまたはenumがありません
+Read from stdout: public static 
+public static 
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:104: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:104: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:105: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:105: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:106: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:106: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:107: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:107: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:109: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:109: class、interfaceまたはenumがありません
+Read from stdout: /Users/String/AI/HelloJubatus/src/main/java/Shogun.java:111: class、interfaceまたはenumがありません
+/Users/String/AI/HelloJubatus/src/main/java/Shogun.java:111: class、interfaceまたはenumがありません
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 0 s, completed 2015/10/04 11:21:12
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@54729cac, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@5644114b directly...
+Java compilation took 0.032337588 s
+Java analysis took 0.011896693 s
+Java compile + analysis took 0.045169248 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:21:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@22552876, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:21:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@148226db, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/String/AI/HelloJubatus/src/main/java/Shogun.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/String/AI/HelloJubatus/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@3faad677 directly...
+Java compilation took 0.027687936 s
+Java analysis took 0.006527463 s
+Java compile + analysis took 0.035018357 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 0 s, completed 2015/10/04 11:22:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Shogun
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@7fad5dac, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2015/10/04 11:22:34
+> server-post-command-cleanup
+> server-handle-next-server-request
